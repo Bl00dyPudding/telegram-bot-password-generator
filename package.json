@@ -1,9 +1,12 @@
 {
-  "name": "untitled",
+  "name": "telegram-bot-password-generator",
   "version": "1.0.0",
   "description": "Telegram bot password generator",
   "main": "bot.js",
   "type": "module",
+  "engines": {
+    "node": "16.x"
+  },
   "scripts": {
     "dev": "nodemon bot.js",
     "start": "node bot.js"
