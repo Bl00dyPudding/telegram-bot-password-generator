@@ -1,0 +1,21 @@
+{
+  "name": "untitled",
+  "version": "1.0.0",
+  "description": "Telegram bot password generator",
+  "main": "bot.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon bot.js",
+    "start": "node bot.js"
+  },
+  "keywords": [],
+  "author": "Vladislav Ershov",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "telegraf": "^4.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
