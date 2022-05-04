@@ -1,4 +1,4 @@
-import { passGen } from "./passgen.js";
+import passGen from "passgen"
 
 const answers = {
     isNaN: 'Укажи числом желаемую длину пароля.',
